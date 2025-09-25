@@ -17,3 +17,10 @@ to pick without commiting
 
 git branch --show-current
 check current branch
+
+
+
+git reset HEAD~1
+undo last commit 
+and then remove changes and then 
+git push origin branchname --force
